@@ -99,7 +99,6 @@ def shortestPath(source, target):
     connect the source to the target.
 
     If no possible path, returns None.
-    src: https://github.com/fernandezpablo85/cs50ai/blob/master/0_search/
     """
     def rPath(node: Node):
         if node.parent is None:
