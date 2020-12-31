@@ -1,6 +1,7 @@
 """
-Using list instead of set
-Removed node = child assigment in shortestPath()
+Determines how many “degrees of separation” apart two actors are.
+
+Written by: Sami Ali
 """
 import sys
 import time
