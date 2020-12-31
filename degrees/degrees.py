@@ -10,7 +10,7 @@ import sqlite3
 from util import Node, StackFrontier, QueueFrontier
 
 # Connect to database
-db = sqlite3.connect("movies.db")
+db = sqlite3.connect("degrees\\movies.db")
 
 # Map person id to set(movies)
 people = {}
